@@ -11,6 +11,8 @@ export class PoppityPopComponent implements OnInit {
     @Input() selectedProject;
     @ViewChild(SwiperDirective) directiveRef: SwiperDirective;
     showPoppity: boolean = false;
+    index:any = 0;
+    config:any;
 
     slides: Array<any>;
     example2SwipeOptions: any;
