@@ -139,9 +139,13 @@ header {
 		color: $colourFontLight;
 		display: flex;
 		flex-direction: row;
-		//margin-bottom: 100px;
+		margin-bottom: 100px;
 		justify-content: center;
 		align-items: center;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 
 		//@media all and (max-width: 900px) {
 			flex-direction: column;
