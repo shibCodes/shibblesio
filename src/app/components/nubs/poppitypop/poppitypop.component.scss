@@ -1,0 +1,98 @@
+.poppity {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(228, 87, 46, 0.8);
+    top: 100%; //bottom: 0;
+    left: 0; right: 0;
+    z-index: 1;
+    transition: all 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.open {
+        top: 0;
+    }
+
+    .butt-close {
+        width: 65px;
+        height: 65px;
+        background: url(/assets/img/ic-butt-close.svg) center center no-repeat;
+        background-size: contain;
+        -webkit-appearance: none;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        transition: all 0.5s;
+        z-index: 1;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.swiper-container {
+    width: 80%;
+
+    @media all and (max-width: 600px) {
+        width: 100%;
+    }
+
+    .swiper-wrapper {
+        text-align: center;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    
+        img {
+            width: 70%;
+
+            &.phone {
+                width: auto;
+                height: 70%;
+            }
+
+            @media all and (max-width: 600px) {
+                width: 90%;
+            }
+
+
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next  {
+        width: 65px;
+        height: 65px;
+        background: url(/assets/img/ic-butt-arrow.svg) center center no-repeat;
+        transition: all 0.5s;
+        z-index: 5;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        @media all and (max-width: 600px) {
+            top: auto;
+            bottom: 20px;
+        }
+    }
+
+    .swiper-button-prev {
+        transform: rotate(180deg);
+
+        &:hover {
+            transform: rotate(180deg) scale(1.1);
+        }
+    }
+
+}

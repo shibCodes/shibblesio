@@ -1,0 +1,43 @@
+@import "../../../../assets/variables";
+
+header {
+	width: 100%;
+	height: $heightHeader;
+	background-size: 110%;
+	margin-bottom: 50px;
+	position: fixed;
+	z-index: 1;
+
+	@media all and (max-width: 600px) {
+		height: 150px;
+	}
+
+	.header-skew {		
+		background: $colourHeader;
+		width: 150%;
+		height: 100%;
+		transform: rotate(-5deg);
+		transform-origin: left bottom;
+		border-bottom: 10px solid white;
+
+		h1 {
+			margin: 0 0 0 20px;
+			color: $colourFontLight;
+			font-family: $fontHeading;
+			font-size: 4.8vw;
+			line-height: 3vw;
+			font-weight: normal;
+			text-transform: uppercase;
+			position: absolute;
+			bottom: 0;	
+
+			@media all and (max-width: 600px) {
+				font-size: 1.6em;
+				word-break: break-word;
+				width: 60%;
+				line-height: 0.9;
+				bottom: -5px;
+			}
+		}
+	}
+}

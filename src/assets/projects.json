@@ -1,0 +1,171 @@
+{
+    "projects": [
+        {
+            "name": "1 Million Women",
+            "description": "Lalalalaa",
+            "type": "phone",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/phone-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/phone-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/phone-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "S-Check",
+            "description": "Lalalalaa",
+            "type": "phone",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/phone-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/phone-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/phone-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "Ben10: Omnitrix",
+            "description": "Lalalalaa",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "IMAX Beauty & the Beast",
+            "description": "Lalalalaa",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "The Lost Summer",
+            "description": "Lalalalaa",
+            "type": "tablet",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "Powerpuff Girls: Storymaker",
+            "description": "Lalalalaa",
+            "type": "tablet",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "The Suspect",
+            "description": "Lalalalaa",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                }
+            ]
+        },
+        {
+            "name": "Sherlock: The Network Microsite",
+            "description": "Lalalalaa",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/macbook-placeholder.png"
+                }
+            ]
+        },   
+        {
+            "name": "Dirt Girl World",
+            "description": "Lalalalaa",
+            "type": "tablet",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/ipad-placeholder.png"
+                }
+            ]
+        }
+    ]
+}

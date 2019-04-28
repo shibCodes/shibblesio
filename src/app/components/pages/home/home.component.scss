@@ -1,0 +1,260 @@
+@import "../../../../assets/variables";
+
+.section-home {
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+	padding-top: $heightHeader;
+	
+	@media all and (max-width: 600px) {
+		height: auto;
+		min-height: 0;
+		padding-top: 150px;
+	}
+
+    .home-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+		margin: 0 auto;
+		
+		@media all and (max-width: 600px) {
+			padding-top: 40px;
+			width: 90%;
+			flex-direction: column-reverse;
+		}
+
+        .home-image {
+            flex: 1;
+			max-width: 300px;
+			
+			@media all and (max-width: 600px) {
+				flex: auto;
+				width: 50%;
+				margin-left: 12%;			
+			}
+
+            img {
+                width: 100%;
+                max-height: 60vh;
+                min-height: 450px;
+            }
+        }
+
+        .home-info {
+            //flex: 1;
+			margin-left: 50px;
+			width: 60%;
+
+			@media all and (max-width: 600px) {
+				width: auto;
+				margin-left: 0;
+				text-align: center;
+			}
+
+            h2 {
+                color: $colourFontHeading;
+                font-size: 1.7em;
+				margin: 0;
+				
+				@media all and (max-width: 600px) {
+					font-size: 1.2em;
+				}
+			}
+			
+			p {
+				font-size: 1em;
+
+				@media all and (max-width: 600px) {
+					font-size: 0.8em;
+				}
+			}
+
+            .colour {
+                strong {
+                    color: $colourFontHeading;
+                }
+            }            
+        }
+    }
+}
+
+header {
+	width: 100%;
+	height: $heightHeader;
+	background-size: 110%;
+	margin-top: -70px;
+
+	@media all and (max-width: 600px) {
+		height: 100px;
+	}
+
+	.header-skew {		
+		background: $colourFontLight;
+		width: 150%;
+		height: 100%;
+		transform: rotate(5deg);
+		transform-origin: left top;
+
+		h1 {
+			margin: 0 0 0 20px;
+			color: $colourHeader;
+			font-family: $fontHeading;
+			font-size: 4.8vw;
+			line-height: 3vw;
+			font-weight: normal;
+			text-transform: uppercase;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+
+			@media all and (max-width: 600px) {
+				font-size: 1.6em;
+				line-height: 0.7em;
+				text-align: left;
+				width: 66%;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.section-stuff {
+    background: $colourHeader;
+    width: 100%;
+    min-height: 100vw;
+	padding-top: $heightHeader;
+	padding-bottom: 100px;
+
+	@media all and (max-width: 600px) {
+		padding-top: 100px;
+	}
+
+	.stuff-wrap {
+		width: 90%;
+		margin: 0 auto;
+		color: $colourFontLight;
+		display: flex;
+		flex-direction: row;
+		//margin-bottom: 100px;
+		justify-content: center;
+		align-items: center;
+
+		//@media all and (max-width: 900px) {
+			flex-direction: column;
+			text-align: center;
+		//}
+
+		&.odd { 
+		//	flex-direction: row-reverse;
+
+			//@media all and (max-width: 900px) {
+			//	flex-direction: column;
+			//}
+		}
+
+		h2 {
+			color: $colourFontLight;
+			font-size: 1.5em;
+			margin: 0;
+
+			@media all and (max-width: 600px) {
+				font-size: 1.1em;
+			}
+		}
+
+		p {
+			font-size: 0.8em;
+
+			@media all and (max-width: 600px) {
+				font-size: 0.7em;
+			}
+		}
+
+		.description {
+			max-width: 80%;
+
+			@media all and (max-width: 600px) {
+				max-width: 100%;
+			}
+		}
+
+		.description, .image { 
+			padding: 20px;
+			position: relative;
+		}
+
+		.image {
+			position: relative;
+			transition: all 1s;
+			max-width: 80%;
+			display: flex;
+    		justify-content: center;
+			align-items: center;
+			
+			@media all and (max-width: 600px) {
+				max-width: 100%;
+			}
+
+			img { 
+				transition: all 1s;
+			}
+
+			&.phone {
+				img {
+					max-width: 60%;
+				}
+			}
+
+			&.desktop {
+				img {
+					max-width: 90%;
+				}
+			}
+
+			&.tablet {
+				img {
+					max-width: 60%;
+
+					@media all and (max-width: 600px) {
+						max-width: 80%;
+					}
+				}
+			}
+
+			.butt-seemore {
+				opacity: 0;
+				position: absolute;
+				left: 0; right: 0;
+				top: 0; bottom: 0;
+				margin: auto;
+				height: 50px;
+				width: 150px;
+				-webkit-appearance: none;
+				border: none;
+				background: $colourFontLight;
+				border-radius: 10px;
+				font-family: $fontHeading;
+				text-transform: uppercase;
+				color: $colourHeader;
+				font-size: 0.9em;
+				cursor: pointer;
+				transition: all 0.5s;
+			}	
+
+			&:hover {
+				cursor: pointer;
+				
+				img { opacity: 0.4; }
+
+				.butt-seemore { opacity: 1; display: block; }
+
+			}	
+
+		}
+		
+	}
+}

@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import "/assets/variables";
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market|Walter+Turncoat');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body, html {
+    margin: 0; padding: 0;
+    font-family: $fontBody;
+    color: $colourFontDark;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontHeading;
+    font-weight: normal;
+}
+
+.swiper-container {
+    height: 100%;
+}

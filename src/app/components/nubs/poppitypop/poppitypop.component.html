@@ -1,0 +1,29 @@
+<section class="poppity" [ngClass]="{'open': showPoppity}">
+
+    <!--<div class="myslides">
+        <button (click)="movePrev()" class="butt-prev"></button>
+        <ks-swiper-container [options]="example2SwipeOptions">
+            <ks-swiper-slide *ngFor="let content of selectedProject.content">
+                <img src="{{content.url}}">
+            </ks-swiper-slide>
+        </ks-swiper-container>        
+        <button (click)="moveNext()" class="butt-next"></button>
+    </div>-->
+
+    <div class="swiper-container" [swiper]="config" [(index)]="index">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let content of selectedProject.content">
+                <img class="{{selectedProject.type}}" src="{{content.url}}">
+            </div>
+        </div>
+
+        <div class="swiper-scrollbar"></div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev" (click)="movePrev()"></div>
+        <div class="swiper-button-next" (click)="moveNext()"></div>
+    </div>
+
+    <button class="butt-close" (click)="closePoppity()"></button>
+</section>
