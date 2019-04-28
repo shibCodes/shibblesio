@@ -22,9 +22,9 @@
 <section class="section-stuff">
     <div class="stuff-wrap" *ngFor="let project of allProjects; let isOdd=odd; let i = index" [class.odd]="isOdd">
         <div class="description">
-            <h2>{{project.name}}</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at porta ligula. Nulla convallis mollis
-                semper. Vestibulum venenatis sodales mi nec venenatis. Donec feugiat vitae turpis eu interdum. </p>
+            <a *ngIf="project.url" href="{{project.url}}" target="_blank"><h2>{{project.name}}</h2></a>
+            <h2 *ngIf="!project.url">{{project.name}}</h2>
+            <span [innerHTML]="project.description"></span>
         </div>
         <div class="image" [ngClass]="project.type">
             <img src="{{project.content[0].url}}" alt="{{project.name}}" />
