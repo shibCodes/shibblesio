@@ -23,10 +23,7 @@ export class PageHomeComponent implements OnInit {
     }
 
     ngOnInit() {
-
-        console.log(projects);
         this.allProjects = projects.projects;
-
     }
 
     ////////////////////////////////

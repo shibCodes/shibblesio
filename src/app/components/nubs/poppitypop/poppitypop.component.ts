@@ -21,18 +21,15 @@ export class PoppityPopComponent implements OnInit {
     }
 
     moveNext() {
-        console.log("next");
         this.directiveRef.nextSlide();
     }
 
     movePrev() {
-        console.log("prev");
         this.directiveRef.prevSlide();
     }
 
     ngOnInit() {
         this.directiveRef.update();
-        console.log(this.selectedProject);
     }
 
     closePoppity() {
