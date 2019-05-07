@@ -12,6 +12,14 @@
 		padding-top: 150px;
 	}
 
+	a {
+		color: #e4572e;
+
+		&:visited {
+			color: #e4572e;
+		}
+	}
+
     .home-wrap {
         display: flex;
         align-items: center;
