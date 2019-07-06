@@ -1,8 +1,32 @@
 {
     "projects": [
         {
+            "name": "Who's Making Tea?",
+            "description": "<p>Personal project I built to solve the problem of fairly deciding who's turn it was to make tea in the office (it was always me).</p><p>The website allows users to quickly pick a random person from a list. However, if a user registers they're able to create and save multiple lists of people. This allows them to actively select certain people from the lists to be included in the next tea round. Every person in the list has their tea progress saved - rounds participated in and rounds made. This data is used to calculate fairly who's turn it is to make tea next.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6</p>",
+            "url": "https://www.whosmakingtea.com",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-04.png"
+                }
+            ]
+        },
+        {
             "name": "1 Million Women",
-            "description": "<p>The 1 Million Women app gives you the tools to cut carbon pollution in the key areas of your everyday life focusing on home energy savings and clean energy options, minimising food waste, reducing overconsumption, investing and divesting (your money) wisely, sustainable fashion, low-impact travel and much more.</p><p>I was the lead developer on this project, architecting the app, and overseeing two mid/junior developers alongside development. I was also lead designer, working alongside another designer to ensure designs were workable within an app format.</p>",
+            "description": "<p>The 1 Million Women app gives you the tools to cut carbon pollution in the key areas of your everyday life focusing on home energy savings and clean energy options, minimising food waste, reducing overconsumption, investing and divesting (your money) wisely, sustainable fashion, low-impact travel and much more.</p><p>I was the lead developer on this project, architecting the app, and overseeing two mid/junior developers alongside development. I was also lead designer, working alongside another designer to ensure designs were workable within an app format.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6, Ionic 3, Cordova</p>",
             "url": "https://www.1millionwomen.com.au/campaigns/1-million-women-app/",
             "type": "phone",
             "content": [
@@ -30,7 +54,7 @@
         },
         {
             "name": "S-Check",
-            "description": "<p>The S-Check app has been developed to help you manage your meth use. It acts as a buddy: you let the app know how you are going, what are you feeling and what you are using and it gives you advice and support when needed. It also gives you the contact details of support services should you want to talk about it.</p><p>I was lead/sole developer on this project.</p>",
+            "description": "<p>The S-Check app has been developed to help you manage your meth use. It acts as a buddy: you let the app know how you are going, what are you feeling and what you are using and it gives you advice and support when needed. It also gives you the contact details of support services should you want to talk about it.</p><p>I was lead/sole developer on this project.</p><p>Built with: HTML5, SCSS, Javascript, AngularJS, Ionic 1, Cordova, Gulp</p>",
             "url": "https://scheckapp.org.au/",
             "type": "phone",
             "content": [
@@ -58,7 +82,7 @@
         },
         {
             "name": "Ben 10: Omnitrix",
-            "description": "<p>The Ben 10 Omnitrix website hosted several games with the aim of inviting children to explore and discover the Ben 10 world whilst learning snippets of logic related to coding, an essential tool for any child in today’s digital world.</p><p>I was one of two developers on this project, working mainly on making the app mobile compatible, responsive, and bug free.</p>",
+            "description": "<p>The Ben 10 Omnitrix website hosted several games with the aim of inviting children to explore and discover the Ben 10 world whilst learning snippets of logic related to coding, an essential tool for any child in today’s digital world. Localised into 18 different languages.</p><p>I was one of two developers on this project, working mainly on making the app mobile compatible, responsive, and bug free.</p><p>Built with: HTML5, SCSS, Javascript, jQuery, Gulp</p>",
             "url": false,
             "type": "desktop",
             "content": [
@@ -82,7 +106,7 @@
         },
         {
             "name": "IMAX Beauty & the Beast",
-            "description": "<p>IMAX Beauty & The Beast was a flock-to-unlock campaign running over the release weekend of the movie. The website would scrape Twitter for tweets containing the #FallForIMAX hashtag. When a certain tweet threshold was achieved a petal would fall from the rose and a random winner was chosen from those who had tweeted. There were 15 petals in total for each of the 15 prizes.</p><p>I was the lead developer on the project, architecting and building the solution as well as managing the backend development and design/video creation/handover.<p>",
+            "description": "<p>IMAX Beauty & The Beast was a flock-to-unlock campaign running over the release weekend of the movie. The website would scrape Twitter for tweets containing the #FallForIMAX hashtag. When a certain tweet threshold was achieved a petal would fall from the rose and a random winner was chosen from those who had tweeted. There were 15 petals in total for each of the 15 prizes.</p><p>I was the lead developer on the project, architecting and building the solution as well as managing the backend development and design/video creation/handover.<p><p>Built with: HTML5, SCSS, Javascript, jQuery, PHP</p>",
             "url": "https://beauty-and-the-beast-web.herokuapp.com/",
             "type": "desktop",
             "content": [
@@ -98,7 +122,7 @@
         },
         {
             "name": "The Lost Summer",
-            "description": "<p>The Lost Summer is a role-playing video game, designed to be a highly engaging experience for 11-14 year olds while building digital intelligence skills and encouraging online safety.<p><p>I was character designer / UI designer, designing multiple characters whose parts could be easily randomised.</p>",
+            "description": "<p>The Lost Summer is a role-playing video game, designed to be a highly engaging experience for 11-14 year olds while building digital intelligence skills and encouraging online safety.<p><p>I was character designer / UI designer, designing multiple characters whose parts could be easily randomised.</p><p>Designed with: Adobe Illustrator, Adobe Photoshop</p>",
             "url": "https://www.esafety.gov.au/education-resources/classroom-resources/lost-summer",
             "type": "tablet",
             "content": [
@@ -114,7 +138,7 @@
         },
         {
             "name": "Powerpuff Girls: Storymaker",
-            "description": "<p>This is a creativity-focussed game where your child can animate their own Powerpuff Girls stories. You can help them make their very own adventures and let them enjoy role-playing. Your child can add up to 5 characters to the animation stage, as well as up to 5 fun props, and then record their voice to bring the scene to life. The end result is their very own personalised story, which you can then save to your mobile or tablet.</p><p>I was UI designer, working with the developers to ensure the UI was easily scalable.",
+            "description": "<p>This is a creativity-focussed game where your child can animate their own Powerpuff Girls stories. You can help them make their very own adventures and let them enjoy role-playing. Your child can add up to 5 characters to the animation stage, as well as up to 5 fun props, and then record their voice to bring the scene to life. The end result is their very own personalised story, which you can then save to your mobile or tablet.</p><p>I was UI designer, working with the developers to ensure the UI was easily scalable.</p><p>Designed with: Adobe Illustrator, Adobe Photoshop</p>",
             "url": "https://apps.cartoonnetwork.co.uk/app/the-powerpuff-girls/story-maker",
             "type": "tablet",
             "content": [
@@ -138,7 +162,7 @@
         },
         {
             "name": "The Suspect",
-            "description": "<p>Using an AI driven chat bot, we built a drama where you, the player, had to gain the trust of a serial killer, understand his world vision and ultimate, decide the fate of his next victims.</p><p>Taking place over seven 'chapters' (seven victims, between 45-120mins), the player interacts with Marcus, our killer, using free form, unstructured conversation to understand what drives him. During the experience, responses from the player are played to back at unexpected moments, adding to the authenticity of the experience. A mobile app tied with the online experience to give you an update on your success, the experience really proved that AI can build compelling characters when wrapped in a great story.</p><p>I was lead developer of this website, working with Cognea/IBM to integrate a real time chatbot into the website. Video and audio queues would be sent to the front end from the chat service which the front end would recognise and play accordingly.</p>",
+            "description": "<p>Using an AI driven chat bot, we built a drama where you, the player, had to gain the trust of a serial killer, understand his world vision and ultimate, decide the fate of his next victims.</p><p>Taking place over seven 'chapters' (seven victims, between 45-120mins), the player interacts with Marcus, our killer, using free form, unstructured conversation to understand what drives him. During the experience, responses from the player are played to back at unexpected moments, adding to the authenticity of the experience. A mobile app tied with the online experience to give you an update on your success, the experience really proved that AI can build compelling characters when wrapped in a great story.</p><p>I was lead developer of this website, working with Cognea/IBM to integrate a real time chatbot into the website. Video and audio queues would be sent to the front end from the chat service which the front end would recognise and play accordingly.</p><p>Built with: HTML5, CSS, Javascript, jQuery, IBM Watson</p><p>Designed with: Adobe Photoshop</p>",
             "type": "desktop",
             "url": false,
             "content": [
@@ -162,7 +186,7 @@
         },
         {
             "name": "Sherlock: The Network Microsite",
-            "description": "<p>Using a bespoke mapping and messaging interface, participants navigate virtual London on foot, by tube or by taxi, interviewing witnesses, collecting evidence, playing games, earning money and picking up valuable tools to help accelerate their mission.  The app features ten cases for Sherlock fans to crack, five of which link to the overarching mystery. Released initially as a premium app, the app was subsequently released under a freemium model and additional cases have been added. The app has been downloaded over 1m times and has received critical acclaim from both press and fans alike.</p><p>I was lead developer of the microsite as well as doing some UI/asset designs for the app.</p>",
+            "description": "<p>Using a bespoke mapping and messaging interface, participants navigate virtual London on foot, by tube or by taxi, interviewing witnesses, collecting evidence, playing games, earning money and picking up valuable tools to help accelerate their mission.  The app features ten cases for Sherlock fans to crack, five of which link to the overarching mystery. Released initially as a premium app, the app was subsequently released under a freemium model and additional cases have been added. The app has been downloaded over 1m times and has received critical acclaim from both press and fans alike.</p><p>I was lead developer of the microsite as well as doing some UI/asset designs for the app.</p><p>Built with: HTML5, CSS, Javascript, jQuery</p>",
             "type": "desktop",
             "url": "http://www.sherlockthenetwork.com/",
             "content": [
