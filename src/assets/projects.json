@@ -1,30 +1,6 @@
 {
     "projects": [
         {
-            "name": "Who's Making Tea?",
-            "description": "<p>Personal project I built to solve the problem of fairly deciding who's turn it was to make tea in the office (it was always me).</p><p>The website allows users to quickly pick a random person from a list. However, if a user registers they're able to create and save multiple lists of people. This allows them to actively select certain people from the lists to be included in the next tea round. Every person in the list has their tea progress saved - rounds participated in and rounds made. This data is used to calculate fairly who's turn it is to make tea next.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6</p>",
-            "url": "https://www.whosmakingtea.com",
-            "type": "desktop",
-            "content": [
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-01.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-02.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-03.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-04.png"
-                }
-            ]
-        },
-        {
             "name": "1 Million Women",
             "description": "<p>The 1 Million Women app gives you the tools to cut carbon pollution in the key areas of your everyday life focusing on home energy savings and clean energy options, minimising food waste, reducing overconsumption, investing and divesting (your money) wisely, sustainable fashion, low-impact travel and much more.</p><p>I was the lead developer on this project, architecting the app, and overseeing two mid/junior developers alongside development. I was also lead designer, working alongside another designer to ensure designs were workable within an app format.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6, Ionic 3, Cordova</p>",
             "url": "https://www.1millionwomen.com.au/campaigns/1-million-women-app/",
@@ -49,6 +25,30 @@
                 {
                     "type": "image",
                     "url": "/assets/img/1mw-05.png"
+                }
+            ]
+        },
+        {
+            "name": "Who's Making Tea?",
+            "description": "<p>Personal project I built to solve the problem of fairly deciding who's turn it was to make tea in the office (it was always me).</p><p>The website allows users to quickly pick a random person from a list. However, if a user registers they're able to create and save multiple lists of people. This allows them to actively select certain people from the lists to be included in the next tea round. Every person in the list has their tea progress saved - rounds participated in and rounds made. This data is used to calculate fairly who's turn it is to make tea next.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6</p>",
+            "url": "https://www.whosmakingtea.com",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-04.png"
                 }
             ]
         },
@@ -80,6 +80,26 @@
                 }
             ]
         },
+        {
+            "name": "GROW",
+            "description": "<p>GROW is a little personal project that's still currently in progress. It's a simple to-do app built with React Native where users take care of a little tamagotchi style plant. The more tasks you complete off your list, the bigger your plant grows!</p><p>Built with: React Native</p><p>Designed with: Adobe Photoshop, Invision Studio</p>",
+            "url": false,
+            "type": "phone",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/grow-01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/grow-02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/grow-03.png"
+                }
+            ]
+        },    
         {
             "name": "Ben 10: Omnitrix",
             "description": "<p>The Ben 10 Omnitrix website hosted several games with the aim of inviting children to explore and discover the Ben 10 world whilst learning snippets of logic related to coding, an essential tool for any child in today’s digital world. Localised into 18 different languages.</p><p>I was one of two developers on this project, working mainly on making the app mobile compatible, responsive, and bug free.</p><p>Built with: HTML5, SCSS, Javascript, jQuery, Gulp</p>",
@@ -157,6 +177,42 @@
                 {
                     "type": "image",
                     "url": "/assets/img/ppg-04.png"
+                }
+            ]
+        },
+        {
+            "name": "Hat the Cat",
+            "description": "<p>This was a personal project I created with my sister. It does exactly what it says - it's an Android app where you put hats on cats and share them with your friends!</p><p>App concept, UI/UX design, and app build was done by me, with illustrations being done by my sister.</p><p>Built with: HTML5, SCSS, Javascript, Cordova</p><p>Designed with: Adobe Illustrator, Adobe Photoshop</p>",
+            "url": false,
+            "type": "phone",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-04.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-05.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-06.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/hatcat-07.png"
                 }
             ]
         },
