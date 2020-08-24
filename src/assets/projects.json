@@ -1,6 +1,58 @@
 {
     "projects": [
         {
+            "name": "myWAY Employability",
+            "description": "<p>myWAY Employability is a personalised digital platform built for members of the autistic community to use to support and manage their transition into working life.</p><p>I was the lead developer on the project, architecting and building the solution, and creating fun UI interactions in order to engage users.<p>Built with: HTML5, SCSS, Javascript, PHP, Drupal 8</p>",
+            "url": "https://www.mywayemployability.com.au/",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/myway-01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/myway-02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/myway-03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/myway-04.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/myway-05.png"
+                }
+            ]
+        },
+        {
+            "name": "Who's Making Tea?",
+            "description": "<p>Personal project I built to solve the problem of fairly deciding who's turn it was to make tea in the office (it was always me).</p><p>The website allows users to quickly pick a random person from a list. However, if a user registers they're able to create and save multiple lists of people. This allows them to actively select certain people from the lists to be included in the next tea round. Every person in the list has their tea progress saved - rounds participated in and rounds made. This data is used to calculate fairly who's turn it is to make tea next.</p><p>Built with: HTML5, SCSS, Typescript, Angular 10, Firebase Authentication, Firebase Firestore</p>",
+            "url": "https://www.whosmakingtea.com",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/tea-04.png"
+                }
+            ]
+        },
+        {
             "name": "1 Million Women",
             "description": "<p>The 1 Million Women app gives you the tools to cut carbon pollution in the key areas of your everyday life focusing on home energy savings and clean energy options, minimising food waste, reducing overconsumption, investing and divesting (your money) wisely, sustainable fashion, low-impact travel and much more.</p><p>I was the lead developer on this project, architecting the app, and overseeing two mid/junior developers alongside development. I was also lead designer, working alongside another designer to ensure designs were workable within an app format.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6, Ionic 3, Cordova</p>",
             "url": "https://www.1millionwomen.com.au/campaigns/1-million-women-app/",
@@ -25,30 +77,6 @@
                 {
                     "type": "image",
                     "url": "/assets/img/1mw-05.png"
-                }
-            ]
-        },
-        {
-            "name": "Who's Making Tea?",
-            "description": "<p>Personal project I built to solve the problem of fairly deciding who's turn it was to make tea in the office (it was always me).</p><p>The website allows users to quickly pick a random person from a list. However, if a user registers they're able to create and save multiple lists of people. This allows them to actively select certain people from the lists to be included in the next tea round. Every person in the list has their tea progress saved - rounds participated in and rounds made. This data is used to calculate fairly who's turn it is to make tea next.</p><p>Built with: HTML5, SCSS, Typescript, Angular 6</p>",
-            "url": "https://www.whosmakingtea.com",
-            "type": "desktop",
-            "content": [
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-01.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-02.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-03.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/tea-04.png"
                 }
             ]
         },

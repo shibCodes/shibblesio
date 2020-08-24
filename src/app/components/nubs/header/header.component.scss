@@ -24,12 +24,13 @@ header {
 			margin: 0 0 0 20px;
 			color: $colourFontLight;
 			font-family: $fontHeading;
-			font-size: 4.8vw;
+			//font-size: 4.8vw;
+			font-size: 7vw;
 			line-height: 3vw;
 			font-weight: normal;
 			text-transform: uppercase;
 			position: absolute;
-			bottom: 0;	
+			bottom: 10px;	
 
 			@media all and (max-width: 600px) {
 				font-size: 1.6em;
