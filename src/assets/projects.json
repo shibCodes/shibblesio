@@ -1,6 +1,114 @@
 {
     "projects": [
         {
+            "name": "Never Never Gin Website",
+            "description": "<p><em>“Not only did Miroma Project Factory deliver a beautiful website, but a highly functional and customisable site, with a user experience that encourages discovery and exploration” - <strong>Never Never Distilling Co</em></strong></p><p>Never Never Distilling Co wanted a new website to suit their growing brand and help aid discovery of their products.</p><p>I was tasked with designing a completely new website experience that took into account the UX pain points with their existing website and fixing them to create a seamless flow that allowed for discovery from landing to product purchase.</p><p>Designed with: Figma</p>",
+            "url": "https://neverneverdistilling.com.au/",
+            "type": "desktop",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image04.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image05.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image06.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-nng-image07.png"
+                }
+            ]
+        },
+        {
+            "name": "LIV the App",
+            "description": "<p>The LIV app helps people living with dementia to stay at home longer by providing information, resources, local services, social connections and a way to keep in touch - or reach out - to friends and family.</p><p>I was brought onto the project initially to overhaul the design / UX and develop a design system. I stayed on the project until completion, developing prototypes, listening to client / end user feedback to develop new design / solutions, as well as building out the web app.<p>Designed with: Figma</p>",
+            "url": "https://www.livtheapp.com/",
+            "type": "tablet",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image04.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image05.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image06.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image07.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image08.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image09.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image10.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image11.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image12.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image13.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image14.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image15.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-liv-image16.png"
+                }
+            ]
+        },
+        {
             "name": "myWAY Employability",
             "description": "<p>myWAY Employability is a personalised digital platform built for members of the autistic community to use to support and manage their transition into working life.</p><p>I was the lead developer on the project, architecting and building the solution, and creating fun UI interactions in order to engage users.<p>Built with: HTML5, SCSS, Javascript, PHP, Drupal 8</p>",
             "url": "https://www.mywayemployability.com.au/",
@@ -107,27 +215,7 @@
                     "url": "/assets/img/scheck-05.png"
                 }
             ]
-        },
-        {
-            "name": "GROW",
-            "description": "<p>GROW is a little personal project that's still currently in progress. It's a simple to-do app built with React Native where users take care of a little tamagotchi style plant. The more tasks you complete off your list, the bigger your plant grows!</p><p>Built with: React Native</p><p>Designed with: Adobe Photoshop, Invision Studio</p>",
-            "url": false,
-            "type": "phone",
-            "content": [
-                {
-                    "type": "image",
-                    "url": "/assets/img/grow-01.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/grow-02.png"
-                },
-                {
-                    "type": "image",
-                    "url": "/assets/img/grow-03.png"
-                }
-            ]
-        },    
+        },   
         {
             "name": "Ben 10: Omnitrix",
             "description": "<p>The Ben 10 Omnitrix website hosted several games with the aim of inviting children to explore and discover the Ben 10 world whilst learning snippets of logic related to coding, an essential tool for any child in today’s digital world. Localised into 18 different languages.</p><p>I was one of two developers on this project, working mainly on making the app mobile compatible, responsive, and bug free.</p><p>Built with: HTML5, SCSS, Javascript, jQuery, Gulp</p>",
@@ -205,6 +293,74 @@
                 {
                     "type": "image",
                     "url": "/assets/img/ppg-04.png"
+                }
+            ]
+        },
+        {
+            "name": "Home and Away",
+            "description": "<p>For 2 years running Channel 7 wanted an app that would keep people engaged with Home and Away during the summer break. We created two episodic experiences that would release new custom made content and puzzles to solve each week with prizes for the users who solved the weekly puzzles first. The content and puzzles were based on the shows end of season cliffhanger and would reveal clues as to what would happen next season.</p><p>I was lead designer on both apps, developing a solution and templates that would allow the designers I was leading in house and the designers at Channel 7 to quickly create content for the app.</p><p>Designed with: Adobe Photoshop</p>",
+            "url": false,
+            "type": "tablet",
+            "content": [
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image04.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image05.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image06.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa14-image07.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image01.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image02.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image03.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image04.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image05.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image06.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image07.png"
+                },
+                {
+                    "type": "image",
+                    "url": "/assets/img/project-haa15-image08.png"
                 }
             ]
         },
